@@ -1,0 +1,23 @@
+header
+---
+
+magic       6 bytes         WGM001
+name        32 bytes
+?           1 byte          128
+?           1 byte          0
+?           1 byte          128
+?           1 byte          0
+?           1 byte          4
+?           2 bytes         0
+?           2 bytes         512
+?           2 bytes         512
+?           1 byte          0
+?           78 bytes        XXXXXX... padding to 128 bytes?
+
+textures
+---
+
+?               8 bytes
+texture count   2 bytes  (unsure)
+?               2 bytes
+textures        16 bytes x texture_count
